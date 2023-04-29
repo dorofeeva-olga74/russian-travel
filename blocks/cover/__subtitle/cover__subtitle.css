@@ -14,7 +14,6 @@
     text-align: center;
 }
 @media screen and (max-width: 768px) {
-    
     .cover__subtitle {
         font-size: 16px;
         line-height: 1.14;
@@ -25,11 +24,11 @@
 
 @media screen and (max-width: 320px) {
     .cover__subtitle {
-        width: 288px;
+        max-width: 288px;
         width: calc(100% - 2*16px);
         height: 48px;
         font-size: 14px;
         line-height: 1.14;
-        margin: 119px auto 33px auto;
+        margin-bottom: 33px;
     }
 }

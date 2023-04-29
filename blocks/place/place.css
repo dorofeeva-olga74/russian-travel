@@ -9,7 +9,7 @@
     grid-template-areas:
     "place__title place__website"
     "place__image place__texts";
-    align-content: center;
+    align-content: space-between;
     align-items: center;
     justify-content:space-between;
     list-style-type: none;
@@ -28,7 +28,7 @@
     .place {
         max-width: 720px;
         gap: 48px 28px;
-        padding-bottom: 73px;      
+        padding-bottom: 73px;
     }
     .place:last-child {
         padding-bottom: 90px;

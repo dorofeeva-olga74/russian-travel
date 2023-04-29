@@ -1,6 +1,7 @@
 .place__paragraph {
     display: flex;
-    max-width: 352px;
+    max-width: 484px;
+    width: 100%;
     color: #FFFFFF;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
@@ -8,8 +9,9 @@
     font-size: 18px;
     line-height: 1.63;
     height: min-content;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    align-items: flex-start;
   }
   .place__paragraph:first-child {
     padding-bottom: 26px;
@@ -21,17 +23,17 @@
   }
   @media screen and (max-width: 768px) {
     .place__paragraph {
-      font-size: 16px;      
+      font-size: 16px;
     }
     .place__paragraph:first-child {
-      padding-bottom: 0; 
+      padding-bottom: 0;
     }
 }
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    padding-bottom: 50px;  
+    padding-bottom: 50px;
   }
   .place__paragraph:last-child {
-    padding-top: 25px;    
-  }  
+    padding-top: 25px;
+  }
 }

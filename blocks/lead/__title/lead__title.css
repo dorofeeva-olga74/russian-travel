@@ -5,11 +5,12 @@
     font-style: normal;
     font-weight: 900;
     font-size: calc((100vw - 320px)/(1280 - 320)*(96 - 40) + 40px);
-    line-height: 1.04;
+    line-height: 1;
     text-align: center;
     color: #FFFFFF;
     margin: 56px 280px 32px 280px;
     padding: 0;
+    justify-content: center;
 }
 
 @media screen and (max-width: 320px) {
