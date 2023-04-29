@@ -1,0 +1,26 @@
+.intro__title {
+    display: flex;
+    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+    max-width: 690px;
+    min-height: 58px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    font-size: calc((100vw - 320px)/(1280 - 320)*(54 - 32) + 32px);
+    line-height: 1.07;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;   
+}
+@media screen and (max-width: 1024px) {
+    .intro__title {
+        max-width: 720px;
+        width: calc(100% - 24px*2);
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro__title {
+        max-width: 288px;
+        width: calc(100% - 16px*2);
+    }
+}

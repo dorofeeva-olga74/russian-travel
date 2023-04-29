@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    max-width: calc(100% - 48px*2);
+}
+@media screen and (max-width: 768px) {
+    .content {
+        max-width: 720px;
+        width: calc(100% - 24px*2);
+        padding: 0 24px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .content {
+        max-width: 320px;
+        width: calc(100% - 16px*2);
+    }
+}

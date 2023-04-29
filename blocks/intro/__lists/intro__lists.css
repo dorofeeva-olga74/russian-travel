@@ -1,0 +1,22 @@
+.intro__lists {
+    max-width: 690px;
+    min-height: 90px;
+    list-style-type: none;
+    /*margin-top: 33px;*/
+    padding: 0;
+}
+@media screen and (max-width: 1024px) {
+  .intro__lists {
+    width: 100%;
+  }   
+}
+@media screen and (max-width: 768px) {
+  .intro__lists {
+      width: calc(100% - 2*24px);      
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro__lists {
+      width: calc(100% - 2*16px);      
+  }
+}

@@ -1,0 +1,32 @@
+.place__texts {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    grid-area: place__texts;
+    max-width: 484px;
+    z-index: 0;
+    justify-content:flex-start;
+    width: 100%;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.place__texts:first-child {
+    padding-bottom: 26px;
+}
+@media screen and (max-width: 1024px) {
+    .place__texts {
+        max-width: 456px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__texts {
+        max-width: 352px;
+    }    
+}
+@media screen and (max-width: 320px) {
+    .place__texts {
+        max-width: 288px;
+        margin: 0 auto;
+    }
+}

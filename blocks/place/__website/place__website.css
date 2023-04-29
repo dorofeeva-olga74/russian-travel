@@ -1,0 +1,9 @@
+.place__website {
+  display: grid;
+  max-width: 460px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+  grid-area: place__website;
+}

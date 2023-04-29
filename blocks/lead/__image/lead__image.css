@@ -1,0 +1,13 @@
+.lead__image {
+    max-width: 984px;
+    width: 100%;
+    min-height: auto;
+    padding: 0;
+    margin: 0 auto;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}    

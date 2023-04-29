@@ -1,0 +1,16 @@
+/*.lead__image-grup {
+    position: relative;
+    padding-top: 56.25%;
+    margin: 64px auto 0 auto;
+    object-fit: cover;
+}
+@media screen and (max-width:1024px) {
+    .lead__image-grup {
+      margin: 56px auto 0 auto;
+    }
+  }
+  @media screen and (max-width:320px) {
+    .lead__image-grup {
+      margin: 40px auto 0 auto;
+    }
+  } */
