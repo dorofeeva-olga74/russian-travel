@@ -14,7 +14,6 @@
   white-space: nowrap;
   align-self: flex-start;
   margin: 8px 0 0 0;
-  text-transform: uppercase;
 }
 @media screen and (max-width: 768px) {
   .lead__caption {
