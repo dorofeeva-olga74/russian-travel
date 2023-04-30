@@ -11,7 +11,7 @@
 @media screen and (max-width: 320px) {
     .footer__links {
         flex-direction: column; 
-        margin-left: 0;       
+        margin-left: 0;
     }
     .footer__links:last-child {
         margin-bottom: 48px;
