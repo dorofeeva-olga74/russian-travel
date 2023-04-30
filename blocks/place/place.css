@@ -9,10 +9,6 @@
     grid-template-areas:
     "place__title place__website"
     "place__image place__texts";
-    align-content: space-between;
-    align-items: center;
-    justify-content:space-between;
-    list-style-type: none;
 }
 .place:last-child {
     padding-bottom: 92px;

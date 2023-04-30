@@ -3,10 +3,6 @@
     width: 100%;
     min-height: 213px;
     display: grid;
-    justify-items: center;
-    align-items: center;
-    align-content: space-between;
-    justify-content: center;
     overflow: hidden;
 }
 @media screen and (max-width: 1024px) {

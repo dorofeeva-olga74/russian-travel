@@ -12,7 +12,7 @@
     text-align: center;
     color: #FFFFFF;
     position: absolute;
-    padding:  245px auto 343px auto;
+    padding:  245px 312px 343px 312px;
     margin: 0 auto;
 }
 @media screen and (max-width: 1024px) {
@@ -32,7 +32,7 @@
         min-height: 102px;
         font-size: 40px;
         line-height: 1.07;
-        padding: 115px auto 215px auto;
+        padding: 115px 100px 215px 100px;
     }
 }
 @media screen and (max-width: 320px) {

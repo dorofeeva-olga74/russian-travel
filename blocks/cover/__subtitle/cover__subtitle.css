@@ -13,12 +13,24 @@
     padding: 0;
     text-align: center;
 }
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        padding-top: 32px;
+        margin-top: 379px;
+    }
+}
 @media screen and (max-width: 768px) {
     .cover__subtitle {
         font-size: 16px;
         line-height: 1.14;
         padding-top: 32px;
-        margin-top: 380px;
+        margin-top: 299px;
+    }
+}
+@media screen and (max-width: 511px) {
+    .cover__subtitle {
+        max-width: 484px;
+        margin-top: 240px;
     }
 }
 
