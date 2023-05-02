@@ -21,6 +21,8 @@
 @media screen and (max-width: 768px) {
     .place__link {
         max-width: 352px;
+        max-width: 47.22vw;
+      max-height: 47.22vw;
     }
 }
 @media screen and (max-width: 320px) {

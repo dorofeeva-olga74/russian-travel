@@ -1,5 +1,6 @@
 .place__paragraph {
     display: flex;
+    flex-wrap: wrap;
     max-width: 484px;
     width: 100%;
     color: #FFFFFF;
@@ -11,6 +12,7 @@
     height: min-content;
     margin: 0;
     padding: 0;
+    text-align: left;
     align-items: flex-start;
   }
   .place__paragraph:first-child {
@@ -24,14 +26,21 @@
   @media screen and (max-width: 768px) {
     .place__paragraph {
       font-size: 16px;
+      min-width: 47.22vw;           
     }
     .place__paragraph:first-child {
       padding-bottom: 0;
     }
 }
+@media screen and (max-width: 416px) {
+  .place__paragraph {
+      max-width: 56.06vw;
+      font-size: 14px;
+    }
+}
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    padding-bottom: 50px;
+    padding-bottom: 50px;    
   }
   .place__paragraph:last-child {
     padding-top: 25px;

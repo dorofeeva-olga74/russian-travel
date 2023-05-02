@@ -8,6 +8,7 @@
 .footer__links:last-child {
     padding-right: 0;
 }
+
 @media screen and (max-width: 320px) {
     .footer__links {
         flex-direction: column;

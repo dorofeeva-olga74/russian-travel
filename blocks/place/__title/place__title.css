@@ -1,16 +1,20 @@
 .place__title {
     display: grid;
     max-width: 460px;
+    width: 100%;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
+    font-size: calc((100vw - 320px)/(1280 - 320)*(72 - 32) + 32px);
     line-height: 1.06;
     color: #FFFFFF;
     grid-area: place__title;
-    padding: 0 16px;
+    text-align: left;
+    /*padding: 0 16px;*/
     margin: 0;
-}
+    padding: 0;
+    }
 @media screen and (max-width: 1024px) {
     .place__title {
         max-width: 440px;

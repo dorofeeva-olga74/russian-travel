@@ -1,3 +1,11 @@
+*{
+
+
+
+    outline: 1px solid red;
+   
+}   
+
 .page {
     display: flex;
     flex-direction: column;
@@ -5,14 +13,13 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    max-width: 1280px;
     margin: 0;
     padding: 0;
-    background-color: #2A2C2F;
     text-decoration-color: #FFFFFF;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+    background: #2A2C2F;
 }
 @media screen and (max-width: 1024px) {
     .page {
