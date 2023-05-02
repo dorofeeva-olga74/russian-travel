@@ -6,3 +6,6 @@
 -Flex
 -Grid
 -Адаптивная верстка
+-Медиазапросы
+
+https://github.com/dorofeeva-olga74/russian-travel
