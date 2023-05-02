@@ -1,7 +1,7 @@
 .cover__subtitle {
+    display: flex;
     z-index: 1;
     max-width: 360px;
-    height: 66px;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -34,9 +34,7 @@
     .cover__subtitle {
         max-width: 288px;
         width: calc(100% - 2*16px);
-        height: 48px;
         font-size: 14px;
-        line-height: 1.14;
         padding-top: 16px;
     }
 }

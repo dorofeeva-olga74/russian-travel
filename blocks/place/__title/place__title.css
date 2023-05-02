@@ -11,8 +11,9 @@
     color: #FFFFFF;
     grid-area: place__title;
     text-align: left;
-    /*padding: 0 16px;*/
-    margin: 0;
+    align-self: flex-start;
+    align-items: center;
+    margin: 0 auto;
     padding: 0;
     }
 @media screen and (max-width: 1024px) {
@@ -31,6 +32,8 @@
     .place__title {
         max-width: 288px;
         width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
         font-size: 32px;
         line-height: 1.09;
     }

@@ -11,7 +11,6 @@
   @media screen and (max-width: 1024px) {
     .cover {
         max-width: 1024px;
-        width:calc(100% + 2*48px);
         min-height: 640px;
     }
   }
@@ -19,13 +18,13 @@
       .cover {
         max-width: 768px;
         width: 100%;
-        min-height: 480px;
+       min-height: 480px;
       }
   }
   @media screen and (max-width: 320px) {
       .cover {
         max-width: 320px;
         width: 100%;
-        min-height: 200px;
+       min-height: 200px;
       }
   }

@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     max-width: 1184px;
     width: calc(100% - 48px*2);
-    min-height: 18px;
     padding: 92px 48px 24px 48px;
     margin: 0;
     justify-content: space-between;
@@ -27,9 +26,11 @@
         padding: 88px 12px 24px 12px;
      }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
     .footer {
         max-width: 186px;
+        flex-direction: column;
         padding: 64px 118px 24px 16px;
+        align-items: stretch;
      }
 }

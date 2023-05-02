@@ -2,7 +2,6 @@
     display: flex;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     max-width: 690px;
-    min-height: 58px;
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
@@ -10,7 +9,7 @@
     line-height: 1.07;
     margin: 0;
     padding: 0;
-    color: #FFFFFF;   
+    color: #FFFFFF;
 }
 @media screen and (max-width: 1024px) {
     .intro__title {

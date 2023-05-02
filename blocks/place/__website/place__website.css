@@ -1,7 +1,6 @@
 .place__website {
   display: grid;
-  /*max-width: 460px;*/
-  width: 47.22vw;
+  max-width: 456px;
   margin: 0;
   padding: 0;
   align-self: flex-end;

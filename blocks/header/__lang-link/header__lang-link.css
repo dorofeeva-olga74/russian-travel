@@ -6,14 +6,13 @@
     font-size: 24px;
     line-height: 1.17;
     color: #FFFFFF;
-    max-width: 30px;
     margin: 0;
     padding: 0;
+    padding-right: 18px;
+    text-decoration: none;
 }
 .header__lang-link:last-child {
-    text-decoration: none;
-    padding-left: 18px;
-    max-width: 29px;
+    padding-right: 0;
 }
 .header__lang-link:hover {
     opacity: 0.8;
@@ -21,8 +20,6 @@
 }
 @media screen and (max-width: 320px) {
     .header__lang-link {
-        max-width: 22px;
-        height: 20px;
         line-height: 1.11;
         font-size: 18px;
     }

@@ -26,21 +26,14 @@
   @media screen and (max-width: 768px) {
     .place__paragraph {
       font-size: 16px;
-      min-width: 47.22vw;           
     }
     .place__paragraph:first-child {
-      padding-bottom: 0;
+      padding-bottom: 25px;
     }
 }
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 360px) {
   .place__paragraph {
-      max-width: 56.06vw;
-      font-size: 14px;
-    }
-}
-@media screen and (max-width: 320px) {
-  .place__paragraph {
-    padding-bottom: 50px;    
+    padding-bottom: 50px;
   }
   .place__paragraph:last-child {
     padding-top: 25px;

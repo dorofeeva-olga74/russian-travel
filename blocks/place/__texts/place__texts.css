@@ -4,7 +4,7 @@
     padding: 0;
     grid-area: place__texts;
     width: 100%;
-    align-self: self-start;    
+    align-self: self-start;
 }
 .place__texts:first-child {
     padding-bottom: 26px;
@@ -19,8 +19,7 @@
         max-width: 352px;
     }
 }
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .place__texts {
         max-width: 288px;
         margin: 0 auto;

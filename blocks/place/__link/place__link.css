@@ -1,7 +1,6 @@
 .place__link {
     display: grid;
     width: 100%;
-    min-height: 22px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -21,14 +20,12 @@
 @media screen and (max-width: 768px) {
     .place__link {
         max-width: 352px;
-        max-width: 47.22vw;
-      max-height: 47.22vw;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .place__link {
-        max-width: 456px;
-        padding-bottom: 0;
         margin-bottom: 0;
+        padding-left: 16px;
+        padding-right: 16px; 
     }
 }

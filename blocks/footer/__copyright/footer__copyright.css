@@ -1,8 +1,5 @@
 .footer__copyright {
     display: flex;
-    white-space: nowrap;
-    max-width: 186px;
-    min-height: 16px;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -14,8 +11,6 @@
 }
 @media screen and (max-width: 1024px) {
     .footer__copyrigh {
-        font-size: 14px;
-        line-height: 1.14;
         padding-left: 277px;
     }
 }
@@ -24,15 +19,10 @@
         padding-left: 69px;
     }
 }
-@media screen and (max-width: 445px) {
-    .footer__link {
-        font-size: 12px;
-        line-height: 1;
-    }
-}
 @media screen and (max-width: 320px) {
     .footer__copyrigh {
         flex-direction: column;
         width: calc(100% - 16px*2);
+        margin-top: 48px;
     }
 }
