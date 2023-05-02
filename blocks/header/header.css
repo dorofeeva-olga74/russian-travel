@@ -9,18 +9,11 @@
     background-color: #2A2C2F;
     text-decoration-color: #FFFFFF;
 }
-@media screen and (max-width:1024px) {
-  *{
-
-
-
-    outline: 1px solid red;
-   
-   }
-  .header {
-    max-width: 928px;
+  @media screen and (max-width:1024px) {
+    .header {
+      max-width: 928px;
+    }
   }
-}
   @media screen and (max-width:768px) {
      .header {
        padding: 28px 24px 0 24px;
