@@ -11,7 +11,7 @@
     text-align: center;
     padding: 0;
     padding-top: 34px;
-    margin: 0 auto;
+    margin: 0 auto auto auto;
 }
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
@@ -34,6 +34,7 @@
     .cover__subtitle {
         max-width: 288px;
         width: calc(100% - 2*16px);
+        max-width: 80%;
         font-size: 14px;
         padding-top: 16px;
     }

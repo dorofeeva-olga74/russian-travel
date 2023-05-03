@@ -1,0 +1,7 @@
+.body {
+    background-color: #2A2C2F;
+    display: flex;
+    width: calc(100% - 48px*2);
+    margin: 0 auto;
+    padding: 0;
+}

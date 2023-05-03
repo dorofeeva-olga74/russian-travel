@@ -1,31 +1,13 @@
 .place__image {
     display: grid;
-    max-width: 460px;
+    width: 100%;
     height: auto;
     background-size: contain;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     object-fit: cover;
     align-self: self-start;
     align-items: center;
-}
-@media screen and (max-width: 1024px) {
-    .place__image {
-        max-width: 42.96875vw;
-        max-height: 42.96875vw;
-    }
-}
-@media screen and (max-width: 768px) {
-    .place__image {
-        max-width: 47.22vw;
-        max-height: 47.22vw;
-    }
-}
-@media screen and (max-width: 416px) {
-    .place__image {
-        max-width: 56.06vw;
-        max-height: 56.06vw;
-    }
 }
 @media screen and (max-width: 360px) {
     .place__image {

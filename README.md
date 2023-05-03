@@ -8,4 +8,4 @@
 -Адаптивная верстка
 -Медиазапросы
 
-https://github.com/dorofeeva-olga74/russian-travel
+ ссылка: https://github.com/dorofeeva-olga74/russian-travel

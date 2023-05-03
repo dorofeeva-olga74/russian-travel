@@ -1,16 +1,16 @@
 .cover__overlay {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
     text-decoration: none;
-    background-image: url("../../../images/__background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin: 0;
     padding: 0;
-    align-items: center;
+    align-items: center;      
   }
   .cover__overlay::before{
     content: "";
@@ -31,7 +31,7 @@
       min-height: 480px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .cover__overlay {
       min-height: 200px;
     }

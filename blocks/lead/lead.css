@@ -1,6 +1,8 @@
 .lead {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    align-content: center;
     align-items: center;
     position: relative;
     max-width: 984px;
@@ -8,13 +10,21 @@
     margin: 0 auto 92px auto;
     padding: 0;
 }
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        margin: 0 48px 92px 48px;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .lead {
         max-width: 768px;
         margin-bottom: 88px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .lead {
         max-width: 320px;
         margin-bottom: 64px;

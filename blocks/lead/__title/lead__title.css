@@ -4,20 +4,19 @@
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: calc((100vw - 320px)/(1280 - 320)*(96 - 40) + 40px);
+    font-size: 96px;
     line-height: 1;
     text-align: center;
     color: #FFFFFF;
-    margin: 56px auto 32px auto;
+    margin: 0 auto 0 auto;
     padding: 0;
     justify-content: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .lead__title {
         max-width: 288px;
         font-size: 40px;
-        line-height: 1.1;
-        margin: 48px 16px 16px 16px;
+        line-height: 1.1;        
     }
 }
