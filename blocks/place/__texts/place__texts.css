@@ -6,22 +6,27 @@
     width: 100%;
     align-self: self-start;
 }
+
 .place__texts:first-child {
     padding-bottom: 26px;
 }
+
 @media screen and (max-width: 1024px) {
     .place__texts {
         max-width: 456px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .place__texts {
         max-width: 352px;
     }
 }
+
 @media screen and (max-width: 360px) {
     .place__texts {
-        max-width: 288px;
+        padding: 0 16px 0 16px;
         margin: 0 auto;
+        width: calc(100% - 16px*2);
     }
 }

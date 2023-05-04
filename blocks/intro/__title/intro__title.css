@@ -5,20 +5,31 @@
     font-style: normal;
     font-weight: 900;
     font-size: 54px;
-    font-size: calc((100vw - 320px)/(1280 - 320)*(54 - 32) + 32px);
     line-height: 1.07;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 768px) {
     .intro__title {
         max-width: 720px;
-        width: calc(100% - 24px*2);
+        width: 100%;
     }
 }
+
+@media screen and (max-width: 462px) {
+    .intro__title {
+        width: calc(100% - 2*24px);
+        font-size: 40px;
+        line-height: 1.07;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .intro__title {
         max-width: 288px;
+        font-size: 32px;
+        line-height: 1.09;
     }
 }

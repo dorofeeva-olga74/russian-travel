@@ -10,12 +10,13 @@
     margin: 0;
     padding: 40px 0 33px 0;
 }
- 
+
 @media screen and (max-width: 1024px) {
     .intro__text {
-      width: 100%;
+        width: 100%;
     }
 }
+
 @media screen and (max-width: 320px) {
     .intro__text {
         padding: 40px 0 34px 0;

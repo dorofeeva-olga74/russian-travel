@@ -1,21 +1,24 @@
 .intro__lists {
-    max-width: 690px;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  max-width: 690px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
+
 @media screen and (max-width: 1024px) {
   .intro__lists {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .intro__lists {
-      width: calc(100% - 2*24px);
+    width: calc(100% - 2*24px);
   }
 }
+
 @media screen and (max-width: 320px) {
   .intro__lists {
-      width: calc(100% - 2*16px);
-    }
+    width: calc(100% - 2*16px);
+  }
 }

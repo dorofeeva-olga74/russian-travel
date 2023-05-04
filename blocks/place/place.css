@@ -8,21 +8,24 @@
     padding-bottom: 80px;
     margin: 0 auto;
     grid-template-areas:
-      "place__title place__website"
-      "place__image place__texts";
+        "place__title place__website"
+        "place__image place__texts";
     align-items: flex-start;
     justify-content: center;
     align-content: center;
 }
+
 .place:last-child {
     padding-bottom: 92px;
-}  
+}
+
 @media screen and (max-width: 1024px) {
     .place {
         max-width: 928px;
         gap: 48px 32px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: 340px 352px;
@@ -30,10 +33,12 @@
         gap: 48px 28px;
         padding-bottom: 73px;
     }
+
     .place:last-child {
         padding-bottom: 90px;
     }
 }
+
 @media screen and (max-width: 360px) {
     .place {
         max-width: 360px;
@@ -42,12 +47,13 @@
         padding: 0;
         grid-template-columns: 1fr;
         grid-template-areas:
-         "place__title"
-         "place__website"
-         "place__image"
-         "place__texts";
+            "place__title"
+            "place__website"
+            "place__image"
+            "place__texts";
         justify-content: center;
     }
+
     .place:last-child {
         padding-bottom: 16px;
     }

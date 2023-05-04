@@ -9,16 +9,19 @@
     margin: 0;
     padding: 0;
 }
+
 @media screen and (max-width: 1024px) {
     .footer__copyrigh {
         padding-left: 277px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .footer__copyrigh {
         padding-left: 69px;
     }
 }
+
 @media screen and (max-width: 360px) {
     .footer__copyrigh {
         flex-direction: column;

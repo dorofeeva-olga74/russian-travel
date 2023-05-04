@@ -7,5 +7,4 @@
 -Grid
 -Адаптивная верстка
 -Медиазапросы
-
- ссылка: https://github.com/dorofeeva-olga74/russian-travel
+[Прoект нп Github:](https://github.com/dorofeeva-olga74/russian-travel)

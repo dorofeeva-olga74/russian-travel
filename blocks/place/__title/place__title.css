@@ -6,7 +6,6 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
-    font-size: calc((100vw - 320px)/(1280 - 320)*(72 - 32) + 32px);
     line-height: 1.06;
     color: #FFFFFF;
     grid-area: place__title;
@@ -15,12 +14,14 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    }
+}
+
 @media screen and (max-width: 1024px) {
     .place__title {
         max-width: 440px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .place__title {
         max-width: 330px;
@@ -28,6 +29,7 @@
         line-height: 1.1;
     }
 }
+
 @media screen and (max-width: 320px) {
     .place__title {
         max-width: 288px;

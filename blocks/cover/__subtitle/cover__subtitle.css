@@ -10,32 +10,40 @@
     color: #FFFFFF;
     text-align: center;
     padding: 0;
-    padding-top: 34px;
-    margin: 0 auto auto auto;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: calc(50% + 34px);
+    left: 0;
+    right: 0;
 }
+
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
-        padding-top: 32px;
+        top: calc(50% + 32px);
     }
 }
+
 @media screen and (max-width: 768px) {
     .cover__subtitle {
         font-size: 16px;
         line-height: 1.14;
     }
 }
-@media screen and (max-width: 511px) {
+
+@media screen and (max-width: 600px) {
     .cover__subtitle {
         max-width: 484px;
+        top: calc(50% + 30px);
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         max-width: 288px;
-        width: calc(100% - 2*16px);
-        max-width: 80%;
         font-size: 14px;
-        padding-top: 16px;
+        top: calc(50% + 16px);
     }
 }

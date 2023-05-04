@@ -14,23 +14,27 @@
     margin-right: 18px;
     text-decoration: none;
 }
+
 .footer__link:last-child {
     margin: 0;
 }
+
 @media screen and (max-width: 445px) {
     .footer__link {
         font-size: 12px;
         line-height: 1;
     }
 }
+
 @media screen and (max-width: 360px) {
     .footer__link {
         justify-content: flex-start;
-        font-size: 24px;        
+        font-size: 24px;
         padding: 0;
         padding-bottom: 32px;
     }
 }
+
 .footer__link:hover {
     opacity: 0.8;
     transition: opacity 0.2s;
