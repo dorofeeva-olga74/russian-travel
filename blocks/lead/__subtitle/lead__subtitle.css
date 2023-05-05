@@ -1,14 +1,21 @@
-.lead__subtitle{
+.lead__subtitle {
     display: flex;
     max-width: 640px;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: calc((100vw - 320px)/(1280 - 320)*(30 - 16) + 16px);
-    width: calc((100vw - 320px)/(1280 - 320)*(640 - 288) + 288px);
+    font-size: 30px;
+    width: 100% ;
     line-height: 1.2;
     text-align: center;
     color: #FFFFFF;
     padding: 0;
     margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 1.25;
+    }
 }

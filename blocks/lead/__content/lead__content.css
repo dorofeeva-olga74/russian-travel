@@ -24,5 +24,6 @@
   .lead__content {
     padding: 48px 0 40px 0;
     row-gap: 16px;
+    max-width: calc(100% - 16px*2);
   }
 }

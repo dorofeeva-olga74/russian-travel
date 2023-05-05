@@ -1,18 +1,19 @@
 .cover__overlay {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
+  min-height: 740px;
+  background-image: url("../../../images/__background.jpg");
   text-decoration: none;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  justify-content: center;
   margin: 0;
   padding: 0;
-  align-items: center;
-  min-height: 740px;
-  z-index: 1;
+  
 }
 
 .cover__overlay::before {
@@ -39,7 +40,7 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
   .cover__overlay {
     max-width: 100%;
     min-height: 200px;

@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
     .cover__background {
         width: 100%;
     }

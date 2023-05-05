@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 320px) {
     .footer__copyrigh {
         flex-direction: column;
         width: 100%;
