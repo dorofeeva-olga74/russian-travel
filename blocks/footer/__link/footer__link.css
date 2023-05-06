@@ -30,7 +30,6 @@
     .footer__link {
         justify-content: flex-start;
         font-size: 24px;
-        padding: 0;
         padding-bottom: 32px;
     }
 }
