@@ -1,13 +1,12 @@
 .header {
   display: flex;
-  align-items: baseline;
   justify-content: space-between;
-  padding: 28px 0 0 0;
+  padding: 28px 48px 0 48px;
   margin: 0 auto;
   max-width: 1184px;
   width: calc(100% - 48px*2);
   background-color: #2A2C2F;
-  text-decoration-color: #FFFFFF;  
+  text-decoration-color: #FFFFFF;
 }
 
 @media screen and (max-width:1024px) {
@@ -20,13 +19,20 @@
   .header {
     max-width: 720px;
     width: calc(100% - 24px*2);
+    padding: 28px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width:360px) {
+  .header {
+    width: calc(100% - 16px*2);
+    padding: 28px 16px 0 16px;
   }
 }
 
 @media screen and (max-width:320px) {
   .header {
-    width: calc(100% - 2*16px);
-    padding: 16px 16px 0 16px;
-    max-width: 320px;
+    padding: 16px 0 0 0;
+    max-width: 288px;
   }
 }

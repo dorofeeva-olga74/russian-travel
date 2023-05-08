@@ -6,24 +6,29 @@
     align-items: center;
     position: relative;
     max-width: 984px;
-    width: 100%;
-    margin: 0 0 92px 0;
+    width: calc(100% - 100px*2);
+    margin: 0 auto 92px auto;
     padding: 0;
 }
+
 @media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
-        margin: 0 48px 92px 48px;        
+        margin: 0 48px 92px 48px;
+        width: 100%;
     }
 }
+
 @media screen and (max-width: 768px) {
     .lead {
         max-width: 768px;
         margin: 0 0 88px 0;
     }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 360px) {
     .lead {
+        max-width: 360px;
         margin-bottom: 64px;
     }
 }

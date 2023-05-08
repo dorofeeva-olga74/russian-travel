@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     grid-area: place__texts;
-    width: 100%;
     align-self: self-start;
 }
 
@@ -23,10 +22,8 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
     .place__texts {
-        padding: 0 16px 0 16px;
-        margin: 0 auto;
-        width: calc(100% - 16px*2);
+        max-width: 100%;
     }
 }

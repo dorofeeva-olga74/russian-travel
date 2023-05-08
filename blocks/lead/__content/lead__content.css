@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
   row-gap: 32px;
   padding: 56px 0 64px 0;
   margin: 0 auto;
@@ -20,10 +19,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .lead__content {
     padding: 48px 0 40px 0;
     row-gap: 16px;
-    max-width: calc(100% - 16px*2);
+    max-width: 100%;
   }
 }

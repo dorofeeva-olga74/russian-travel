@@ -7,10 +7,22 @@
     column-gap: 18px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
+    .footer__links {
+        padding-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 518px) {
     .footer__links {
         width: 100%;
         margin-bottom: 16px;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .footer__links {
+        padding-bottom: 0;
     }
 }

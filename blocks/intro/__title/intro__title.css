@@ -9,12 +9,14 @@
     margin: 0;
     padding: 0;
     color: #FFFFFF;
+    margin-left: 100px;
+    width: calc(100% - 100px);
 }
 
 @media screen and (max-width: 1024px) {
     .intro__title {
-        max-width: 690px;
         width: 100%;
+        margin-left: 0;
     }
 }
 
@@ -27,8 +29,8 @@
 @media screen and (max-width: 462px) {
     .intro__title {
         width: calc(100% - 2*24px);
-        font-size: 40px;
-        line-height: 1.07;
+        font-size: 11.239vw;
+        line-height: 1.1;
     }
 }
 

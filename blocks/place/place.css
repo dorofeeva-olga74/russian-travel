@@ -28,10 +28,9 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: 340px 352px;
+        grid-column-gap: 3.646vw;
         max-width: 720px;
-        gap: 48px 28px;
-        padding-bottom: 73px;
+        padding-bottom: 72px;
     }
 
     .place:last-child {
@@ -39,12 +38,11 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 450px) {
     .place {
-        max-width: 360px;
+        max-width: 450px;
         gap: 32px;
-        margin: 0;
-        padding: 0;
+        padding-bottom: 50px;
         grid-template-columns: 1fr;
         grid-template-areas:
             "place__title"
@@ -55,6 +53,12 @@
     }
 
     .place:last-child {
-        padding-bottom: 16px;
+        padding-bottom: 66px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        padding-bottom: 0;
     }
 }

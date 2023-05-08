@@ -2,12 +2,10 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 690px;
   margin: 0;
   padding: 0;
-  padding-left: 100px;
-  align-self: flex-start;
   width: 100%;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,15 +16,7 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin: 0 auto;
-    padding: 0;
+    padding-left: 0;
     align-self: auto;
-    max-width: calc(100% - 24px*2);
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro {
-    max-width: calc(100% - 16px*2);
   }
 }
