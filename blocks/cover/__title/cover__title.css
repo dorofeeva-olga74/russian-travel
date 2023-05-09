@@ -22,27 +22,33 @@
 }
 
 @media screen and (max-width: 600px) {
-    .cover__subtitle {
-        max-width: 484px;
+    .cover__title {
+        max-width: 82.12vw;
+        font-size: 64px;
     }
 }
 
-@media screen and (max-width: 518px) {
+@media screen and (max-width: 550px) {
     .cover__title {
-        max-width: 78.12vw;
-        font-size: 44px;
+        max-width: 55.12vw;
+        font-size: 40px;
         line-height: 1.07;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
     .cover__title {
         max-width: 85.12vw;
-        font-size: 40px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
+    .cover__title {
+        max-width: 71.12vw;
+    }
+}
+
+@media screen and (max-width: 360px) {
     .cover__title {
         max-width: 250px;
         font-size: 32px;

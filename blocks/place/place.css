@@ -1,7 +1,7 @@
 .place {
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr minmax(230px, 1fr);
     grid-template-rows: minmax(min-content, max-content);
     gap: 48px 40px;
     padding: 0;
@@ -22,6 +22,7 @@
 @media screen and (max-width: 1024px) {
     .place {
         max-width: 928px;
+        width: calc(100% - 48px*2);
         gap: 48px 32px;
     }
 }
@@ -30,6 +31,7 @@
     .place {
         grid-column-gap: 3.646vw;
         max-width: 720px;
+        width: 100%;
         padding-bottom: 72px;
     }
 
@@ -38,9 +40,9 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
     .place {
-        max-width: 450px;
+        max-width: 500px;
         gap: 32px;
         padding-bottom: 50px;
         grid-template-columns: 1fr;
@@ -50,15 +52,10 @@
             "place__image"
             "place__texts";
         justify-content: center;
+        width: 100%;
     }
 
     .place:last-child {
         padding-bottom: 66px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place {
-        padding-bottom: 0;
     }
 }

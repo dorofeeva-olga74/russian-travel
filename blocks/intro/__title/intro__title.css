@@ -9,26 +9,26 @@
     margin: 0;
     padding: 0;
     color: #FFFFFF;
-    margin-left: 100px;
-    width: calc(100% - 100px);
+    margin-left: 148px;
+    width: calc(100% - 148px);
 }
 
 @media screen and (max-width: 1024px) {
     .intro__title {
         width: 100%;
-        margin-left: 0;
+        margin-left: 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro__title {
         max-width: 720px;
+        margin-left: 0;
     }
 }
 
 @media screen and (max-width: 462px) {
     .intro__title {
-        width: calc(100% - 2*24px);
         font-size: 11.239vw;
         line-height: 1.1;
     }

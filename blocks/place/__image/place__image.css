@@ -11,9 +11,9 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .place__image {
-        align-self: auto;
-        max-height: 320px;
+        width: calc(100% + 16px*2);
+        margin-left: -16px;
     }
 }

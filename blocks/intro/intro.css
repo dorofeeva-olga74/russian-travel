@@ -4,19 +4,19 @@
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  width: 100%;
   align-self: flex-start;
+  width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 786px) {
   .intro {
-    padding-left: 48px;
+    max-width: calc(100% - 48px*2);
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    padding-left: 0;
     align-self: auto;
+    max-width: 100%;
   }
 }

@@ -6,10 +6,6 @@
     align-self: self-start;
 }
 
-.place__texts:first-child {
-    padding-bottom: 26px;
-}
-
 @media screen and (max-width: 1024px) {
     .place__texts {
         max-width: 456px;
@@ -22,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .place__texts {
         max-width: 100%;
     }

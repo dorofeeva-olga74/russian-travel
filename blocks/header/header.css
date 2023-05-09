@@ -1,10 +1,12 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  width: calc(100% - 48px*2);
+  max-width: 1184px;
   padding: 28px 48px 0 48px;
   margin: 0 auto;
-  max-width: 1184px;
-  width: calc(100% - 48px*2);
+  justify-content: space-between;
+  align-items: center;
   background-color: #2A2C2F;
   text-decoration-color: #FFFFFF;
 }

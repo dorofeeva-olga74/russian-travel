@@ -15,19 +15,12 @@
 @media screen and (max-width: 1024px) {
   .cover {
     max-width: 1024px;
-    width: calc(100% + 4.6875vw*2);
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
-    width: calc(100% + 24px*2);
-  }
-}
-
-@media screen and (max-width: 518px) {
-  .cover {
     width: calc(100% + 24px*2);
   }
 }

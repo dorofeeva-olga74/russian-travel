@@ -13,7 +13,6 @@
   justify-content: center;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 .cover__overlay::before {
@@ -27,14 +26,11 @@
   opacity: 0.3;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .cover__overlay:hover::before {
-  background: #2A2C2F;
   opacity: 0.8;
   transition: background 0.2s;
-  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
