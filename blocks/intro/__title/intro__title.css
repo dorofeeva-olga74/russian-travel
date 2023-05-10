@@ -34,10 +34,11 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .intro__title {
-        max-width: 288px;
+        max-width: calc(100% - 16px*2);
         font-size: 32px;
         line-height: 1.09;
+        padding: 0 16px;
     }
 }

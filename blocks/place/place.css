@@ -59,3 +59,11 @@
         padding-bottom: 66px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .place {
+        max-width: 320px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

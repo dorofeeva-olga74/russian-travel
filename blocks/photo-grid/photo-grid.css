@@ -46,5 +46,6 @@
         grid-template-rows: repeat(12, 1fr);
         margin: 64px auto;
         padding: 0 16px;
+        width: calc(100% - 16px*2);
     }
 }
